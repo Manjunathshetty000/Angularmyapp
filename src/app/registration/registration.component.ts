@@ -18,7 +18,7 @@ export class RegistrationComponent implements OnInit {
     let pass1 = localStorage.getItem("Password")
     if (user1 && pass1) {
       this.router.navigate(['login'])
-      window.alert("data submitted")
+      window.alert("Navigated to LoginForm")
     }
   }
   ngOnInit(): void {
